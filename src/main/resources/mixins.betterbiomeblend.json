@@ -1,14 +1,15 @@
 {
-    "compatibilityLevel": "JAVA_8",
+    "required": true,
     "package": "fionathemortal.betterbiomeblend.mixin",
-    "refmap": "refmap.betterbiomeblend.json",
+    "refmap": "mixins.betterbiomeblend.refmap.json",
+    "compatibilityLevel": "JAVA_8",
+    "target": "@env(DEFAULT)",
+    "minVersion": "0.8",
     "mixins": [
     ],
     "client": [
         "MixinBiomeColorHelper",
-        "MixinWorldClient",
-        "MixinCustomColors"
-    ],
-    "server": [],
-    "minVersion": "0.6"
+        "optifine.MixinCustomColors",
+        "MixinWorldClient"
+    ]
 }

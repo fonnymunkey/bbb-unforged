@@ -5,12 +5,11 @@
   "description": "${mod_description}",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/FionaTheMortal/better-biome-blend",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/bbb-unforged",
   "updateUrl": "",
   "authorList": ${mod_author},
   "credits": "Fuzss",
   "logoFile": "",
-  "screenshots": [],
   "dependencies": []
 }
 ]
